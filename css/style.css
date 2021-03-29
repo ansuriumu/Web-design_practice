@@ -1,0 +1,501 @@
+a{
+  text-decoration: none;
+}
+
+/* ここからヘッダー　*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+.header-logo img{
+  height: 50%;
+  padding: 15px 20px;
+}
+
+.header-logo{
+  width: 50%;
+}
+
+.header-nav-list{
+  display: flex;
+  padding: 25px 20px;
+}
+
+.list-item a{
+  padding-left: 20px;
+  color: grey;
+}
+
+/* ヘッダー終了*/
+
+/* ここからfirstview */
+
+.container{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.firstview-wrapper{
+  position: relative;
+}
+
+.firstview-contents{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.firstview-first-msg{
+  font-family: 'Wawati SC',sans-serif;
+  font-size: 70px;
+  line-height: 100px;
+  color:mediumvioletred;
+  margin-bottom: 70px;
+}
+
+.firstview-first-msg span{
+  color:rgb(71, 159, 231);
+}
+
+.firstview-second-msg{
+  font-size: 30px;
+  color: mediumvioletred;
+}
+
+.firstview-second-msg span{
+  color: rgb(71, 159, 231);
+}
+
+.firstview-second-msg p{
+  font-size: 20px;
+  color:darkgrey;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.firstview-img{
+  margin: 0 0 0 auto;
+}
+
+.firstview-img img{
+  width: 70%;
+  margin: 0 0 0 auto;
+  display: block;
+}
+
+/* firstview終了 */
+
+/* ここからnews　*/
+
+.news-wrapper{
+  margin: 70px auto;
+  justify-content: center;
+  width: 80%;
+}
+
+.news-wrapper h2{
+  margin: 30px 0 20px 0;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(92, 91, 91);
+  width: 80%;
+}
+
+.news-wrapper span{
+  font-size: 15px;
+  font-family: 'Wawati SC',sans-serif;
+  color:mediumvioletred;
+}
+
+.news-list{
+  border-bottom: 1px solid rgb(68, 66, 66);
+  border-top: 1px solid rgb(68, 66, 66);
+  padding: 20px 0 30px 0;
+  justify-content: center;
+}
+
+.news-item{
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.959);
+  align-items: center;
+  width: 100%;
+}
+
+.news-item p{
+  margin-right: 30px;
+  color: rgb(75, 71, 71);
+}
+
+.news-item p:nth-child(2){
+  color: white;
+  background: mediumvioletred;;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.news-item a{
+  color: rgb(75, 71, 71);
+}
+
+.news-item a:hover{
+  color:rgb(179, 174, 174);
+  transition: 0.5s;
+}
+
+/* news終了 */
+
+/* ここからabout */
+
+.about-wrapper{
+  background: rgb(233, 231, 231);
+  height: 400px;
+  width: 100%;
+  margin: 70px -25%;
+  padding: 0 25%;
+}
+
+.about-wrapper h2{
+  margin: 50px 0 30px 0;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(92, 91, 91);
+  text-align: center;
+}
+
+.about-wrapper span{
+  font-size: 15px;
+  font-family: 'Wawati SC',sans-serif;
+  color:mediumvioletred;
+}
+
+.about-contents{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-img img{
+  width: 70%;
+  margin-left: 150px;
+  display: block;
+}
+
+.about-txt{
+  margin-bottom: 40px;
+  color: rgb(75, 71, 71);
+  line-height: 25px;
+  width: 380px;
+}
+
+/*  about終了 */
+/* ここからservice */
+
+.service-title{
+  margin: 50px 0 30px 0;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(92, 91, 91);
+}
+
+.service-wrapper span{
+  font-size: 15px;
+  font-family: 'Wawati SC',sans-serif;
+  color:mediumvioletred;
+}
+
+.service-contents{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 500px 500px;
+}
+
+.service-contents img{
+  width: 30%;
+}
+
+.service-content-first{
+  grid-row: 1/3;
+  grid-column: 1/2;
+  text-align: center;
+  line-height: 30px;
+  padding: 30px;
+  background: mediumvioletred;
+  color: white;
+}
+
+.service-content-first h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.service-content-second{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  background: rgba(190, 82, 223, 0.589);
+  color: white;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.service-content-second h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content-second-img{
+  margin-right: 20px;
+}
+
+.service-content-third{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  background: rgba(178, 127, 219, 0.589);
+  color: white;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.service-content-third h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content-third-img{
+  margin-right: 20px;
+}
+
+/* service終了 */
+
+/* ここからblog */
+.blog-wrapper{
+  background-color: rgb(233, 231, 231);
+  height: 600px;
+  width: 100%;
+  margin: 70px -25%;
+  padding: 0 25%;
+}
+
+.blog-wrapper h2{
+  margin: 50px 0 30px 20px;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(92, 91, 91);
+}
+
+.blog-title{
+  font-size: 15px;
+  font-family: 'Wawati SC',sans-serif;
+  color:mediumvioletred;
+}
+
+.card-list{
+  display: flex;
+}
+
+.card-item{
+  margin: 0px 20px 50px 20px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  position: relative;
+  background-color: white;
+}
+
+.card-item p:first-child{
+  position: absolute;
+  background: mediumvioletred;
+  border-top-left-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.card-item img{
+  width: 100%;
+  padding-bottom: 20px;
+  display: block;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-item img:hover{
+  opacity: 0.5;
+}
+
+.card-item p:nth-of-type(2){
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 25px;
+  color: rgb(92, 91, 91);
+  font-weight: bold;
+}
+
+.card-item div{
+  color: rgb(92, 91, 91);
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.card-item div span{
+  padding: 0 20px;
+}
+
+.blog-menu{
+  text-align: center;
+}
+
+.blog-menu a{
+  display: inline-block;
+  padding: 20px 60px;
+  background: white;
+  border-radius: 30px;
+  border: 2px solid mediumvioletred;
+  color: mediumvioletred;
+  margin-bottom: 40px;
+}
+
+/* blog終了 */
+
+/* ここからcompany */
+.company-wrapper{
+  margin: 70px auto;
+}
+
+.company-wrapper h2{
+  margin: 30px 0 20px 0;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(92, 91, 91);
+  width: 80%;
+  margin-left: 95px;
+}
+
+.company-wrapper span{
+  font-size: 15px;
+  font-family: 'Wawati SC',sans-serif;
+  color:mediumvioletred;
+}
+
+table{
+  margin: 0 auto;
+  color: rgb(92, 91, 91);
+}
+
+table th{
+  width: 200px;
+  padding: 20px;
+  border: 1px solid rgba(190, 184, 184, 0.5);
+  text-align: left;
+  background: rgb(233, 231, 231);
+}
+
+table td{
+  width: 70%;
+  padding: 20px;
+  border: 1px solid rgba(190, 184, 184, 0.5);
+}
+
+/* company終了 */
+
+/* ここからcontents */
+
+.contents{
+  display: flex;
+  border: 1px solid;
+  margin: 0 auto 70px auto;
+}
+
+.contents-item_1{
+  width: 50vw;
+  height: 50vh;
+  background: url(../img/recruit.png)no-repeat center/cover;
+  position: relative;
+}
+
+.contents-item_2{
+  width: 50vw;
+  height: 50vh;
+  background: url(../img/interview.png) no-repeat center/cover;
+  position: relative;
+}
+
+.contents-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 40px;
+}
+
+/* contents終了 */
+
+/* ここからcontact */
+
+.contact-wrapper{
+  text-align: center;
+  margin: 0 auto 70px auto;
+}
+
+.contact-wrapper h2{
+  color: rgb(92, 91, 91);
+  font-size: 20px;
+}
+
+.contact-wrapper div{
+  background: mediumvioletred;
+  height: 50px;
+  width: 2px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.contact-wrapper a{
+  position: relative;
+  display: block;
+  background: linear-gradient(90deg,rgb(248, 5, 216),rgb(119, 0, 113));
+  width: 250px;
+  padding: 25px 10px;
+  margin: 0 auto;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0px 10px 5px rgba(160, 2, 113, 0.774);
+}
+
+.contact-wrapper a:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  background: url(../img/mailicon.svg);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0,-50%);
+}
+
+footer{
+  height: 80px;
+  background: rgb(233, 231, 231);
+  text-align: center;
+}
+
+footer small{
+  padding: 30px;
+  display: inline-block;
+  color: darkgray;
+}
