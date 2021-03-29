@@ -156,8 +156,8 @@ header{
   background: rgb(233, 231, 231);
   height: 400px;
   width: 100%;
-  margin: 70px -25%;
-  padding: 0 25%;
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
 }
 
 .about-wrapper h2{
@@ -176,12 +176,12 @@ header{
 
 .about-contents{
   display: flex;
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  margin-left: 250px;
 }
 
 .about-img img{
-  width: 70%;
+  width: 50%;
   margin-left: 150px;
   display: block;
 }
@@ -285,13 +285,12 @@ header{
 .blog-wrapper{
   background-color: rgb(233, 231, 231);
   height: 600px;
-  width: 100%;
-  margin: 70px -25%;
-  padding: 0 25%;
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
 }
 
 .blog-wrapper h2{
-  margin: 50px 0 30px 20px;
+  margin: 40px 0 30px 235px;
   line-height: 30px;
   font-size: 20px;
   color: rgb(92, 91, 91);
@@ -305,6 +304,8 @@ header{
 
 .card-list{
   display: flex;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .card-item{
